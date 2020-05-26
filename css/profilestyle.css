@@ -1,0 +1,267 @@
+body{
+	
+}
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+/*---header------*/
+#header{
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	background-color: #C34C42;
+}
+#header-top{
+	width: auto;
+	height: 65px;
+	overflow: auto;
+	background-color: #1C1C1C;
+
+}
+#header-top-left{
+	width: 480px;
+	height: 65px;
+	float: left;
+	overflow: auto;
+	background-color: #1C1C1C;
+	position: relative;
+}
+#logo{
+	position: absolute;
+	left: 85px;
+	top: 13px;
+}
+#header-top-right{
+	width: 480px;
+	height: 65px;
+	overflow: auto;
+	float: right;
+	background-color: #1C1C1C;
+}
+#menu-box{
+	width: 480px;
+	overflow: auto;
+	background-color: #1C1C1C;
+}
+#menu{
+	padding: 0 auto;
+}
+#menu li{
+	float: left;
+	display: block;
+	list-style: none;
+	
+}
+#menu li a{
+	padding: 8px;	
+	display: block;
+	font-size: 10px;
+	font-family: verdana; 
+	text-decoration: none;
+	color: white; 
+}
+#menu li a:hover{
+	 background-color: #1CA361;
+}
+#header-bottom{
+	width: auto; 
+	height: 465px; 
+	overflow: auto;
+	position: relative;
+	background: linear-gradient(rgba(0,0,0,0.3),rgb(0,0,0,0.3)),url('../images/pic1.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+#text{
+	width: 500px;
+	position: absolute;
+	left: 90px;
+	top: 81px;
+	height: 150px;
+	font-size: 20px;
+	font-family: verdana;
+	color: white; 
+}
+#text a{
+	padding: 10px 18px;
+	width: 150px;
+	height: 40px;
+	font-size: 10px;
+	font-family: verdana;
+	color: white;
+	text-decoration: none;
+    border: 2px solid white;	
+}
+#text a:hover{
+	background-color: #1CA361;
+}
+
+/*---content------*/
+#content{
+	width: 960px;
+	height: 600px;
+	overflow: auto;
+	background-color: #FFFFFF;
+
+}
+#content-box{
+	margin: 10px;
+	width: 940px;
+	height: 400px;
+	background-color: #FFFFFF;
+}
+#content-box-top{
+	margin-top: 5px;
+	width: 930px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+}
+#mentor{
+	width:400px;
+	height: auto;
+	float: left;
+	font-family: Arial;
+	font-size: 10px;
+	line-height: 1.6;
+}
+#mentor h2{
+	font-family: Calibri;
+	font-size: 25px;
+	color: #FC5858;
+}
+#mentor a{
+	padding: 5px 12px;
+	width: 25px;
+	height: auto;
+	font-size: 10px;
+	font-family: verdana;
+	color: #FC5858;
+	text-decoration: none;
+    border: 2px solid #FC5858;	
+}
+#mentor a:hover{
+	background-color: #9ECFDA;
+}
+#cr{
+	width:400px;
+	height: auto;
+	float: left;
+	font-family: Arial;
+	font-size: 10px;
+	line-height: 1.6;
+	margin-left: 110px;
+}
+#cr h2{
+	font-family: Calibri;
+	font-size: 25px;
+	color: #FC5858;
+}
+#cr a{
+	padding: 5px 12px;
+	width: 25px;
+	height: auto;
+	font-size: 10px;
+	font-family: verdana;
+	color: #FC5858;
+	text-decoration: none;
+    border: 2px solid #FC5858;	
+}
+#cr a:hover{
+	background-color: #9ECFDA;
+}
+
+/*----------footer----*/
+#footer{
+	width: 960px;
+	height: 570px;
+	overflow: auto;
+	background-color: #E5474B;
+    position: relative;
+}
+#footer-packet{
+	width: 815px;
+	height: 470px;
+	position: absolute;
+	left: 90px;
+	top:  50px;
+	font-family: Calibri;
+	color: #FFFFFF;
+}
+#headline {
+     font-size: 22px;
+}
+#form-top{
+	width:815px;
+	height: 100px;
+	overflow: auto;
+}
+#form-top-name{
+	width: 405px;
+	height: 100px;
+	overflow: auto;
+	padding-right: 2px;
+    float: left;
+}
+#form-top-name p{
+	font-size: 13px;
+}
+input[type=text] {
+    width: 390px;
+    padding: 5px 9px;
+    box-sizing: border-box;
+    border: 2px solid #EC7578;
+	background-color: #E5474B;
+}
+#form-top-email{
+	width:405px;
+	height: 100px;
+	overflow: auto;
+	padding-left: 2px;
+	float: left;
+}
+#form-top-email p{
+	font-size: 13px;
+}
+input[type=email] {
+    width: 390px;
+    padding: 5px 9px;
+    box-sizing: border-box;
+    border: 2px solid #EC7578;
+	background-color: #E5474B;
+}
+#form-bottom{
+	width:815px;
+	height: 300px;
+	overflow: auto;
+	font-size: 13px;
+}
+textarea{
+    width: 800px;
+    padding: 5px 9px;
+    box-sizing: border-box;
+    border: 2px solid #EC7578;
+	background-color: #E5474B;
+}
+input[type=submit] {
+   	font-family: Calibri;
+	text-decoration: none;
+	font-size: 11px;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	padding: 7px 18px;
+	background-color: #E5474B;
+}
+
+input[type=submit]:hover{
+	background-color: #9ECFDA;
+}
+#end p{
+	font-family: Calibri;
+	text-decoration: none;
+	font-size: 12px;
+	color: #EC7578;
+	line-height: 1.6;
+}

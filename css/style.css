@@ -1,0 +1,403 @@
+body{
+	
+}
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #6AC239;
+}
+/*---header------*/
+#header{
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	background-color: #C34C42;
+}
+#header-top{
+	width: auto;
+	height: 65px;
+	overflow: auto;
+	background-color: #1C1C1C;
+}
+#header-top-left{
+	width: 480px;
+	height: 65px;
+	float: left;
+	overflow: auto;
+	background-color: #1C1C1C;
+	position: relative;
+}
+#logo{
+	position: absolute;
+	left: 85px;
+	top: 13px;
+}
+#header-top-right{
+	width: 480px;
+	height: 65px;
+	overflow: auto;
+	float: right;
+	background-color: #1C1C1C;
+}
+#menu-box{
+	width: 480px;
+	overflow: auto;
+	background-color: #1C1C1C;
+}
+#menu{
+	padding: 0 auto;
+}
+#menu li{
+	float: left;
+	display: block;
+	list-style: none;
+	
+}
+#menu li a{
+	padding: 8px;	
+	display: block;
+	font-size: 10px;
+	font-family: verdana; 
+	text-decoration: none;
+	color: white; 
+}
+#menu li a:hover{
+	 background-color: #1CA361;
+}
+#header-bottom{
+	width: auto; 
+	height: 465px; 
+	overflow: auto;
+	position: relative;
+	background-image: url('../images/pic1.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+#text{
+	width: 500px;
+	position: absolute;
+	left: 90px;
+	top: 81px;
+	height: 150px;
+	font-size: 20px;
+	font-family: verdana;
+	color: white; 
+}
+#text a{
+	padding: 10px 18px;
+	width: 150px;
+	height: 40px;
+	font-size: 10px;
+	font-family: verdana;
+	color: white;
+	text-decoration: none;
+    border: 2px solid white;	
+}
+#text a:hover{
+	background-color: #1CA361;
+}
+
+/*---content------*/
+#content{
+	width: 960px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+#content-top{
+	width: 960px;
+	height: 340px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.ct-text h2{
+	font-family: Calibri;
+	color: #E85B5F;
+	font-size: 23px;
+}
+.ct-text{
+	font-family: Calibri;
+	letter-spacing: 1px;
+	font-size: 14px;
+	line-height: 1.6;
+	width: 810px;
+	height: 220px;
+	position: absolute;
+	top: 55px;
+	left: 90px;
+}
+.ct-text a{
+	font-family: Calibri;
+	text-decoration: none;
+	font-size: 12px;
+	color: #E85B5F;
+	border: 2px solid #E64B4D;
+	padding: 7px 18px;
+}
+.ct-text a:hover{
+	background-color: #1CA361;
+}
+content-center{
+	width: 960px;
+	height: 450px;
+	overflow: auto;
+}
+#content-center-left{
+	width: 480px;
+	height: 450px;
+	overflow: auto;
+	float: left;
+	background-color: #F3F3F3;
+	position: relative;
+}
+.ccl-text h2{
+	font-family: Calibri;
+	color: #E85B5F;
+	font-size: 19px;
+}
+.ccl-text{
+	font-family: Calibri;
+	letter-spacing: 1px;
+	font-size: 14px;
+	line-height: 1.6;
+	width: 332px;
+	height: 300px;
+	position: absolute;
+	top: 81px;
+	left: 90px;	
+}
+#content-center-right{
+	width: 480px;
+	height: 450px;
+	overflow: auto;
+	float: left;
+	background-color: #F7F7F7;
+	position: relative;
+}
+.ccr-text h2{
+	font-family: Calibri;
+	color: #E85B5F;
+	font-size: 19px;
+}
+.ccr-text{
+	font-family: Calibri;
+	letter-spacing: 1px;
+	font-size: 14px;
+	line-height: 1.6;
+	width: 332px;
+	height: 300px;
+	position: absolute;
+	top: 81px;
+	left: 90px;	
+}
+
+#content-bottom{
+	width: 960px;
+	height: 400px;
+	overflow: auto;
+	background-color: #7FBFCE; 
+}
+#content-bottom-left{
+	width: 320px;
+	height: 400px;
+	overflow: auto;
+	float: left;
+	background-color: #FFFFFF; 
+	position: relative;
+}
+.cbl-text{
+	font-family: Calibri;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 1.6;
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 81px;
+	left: 90px;
+}
+.cbl-text h1{
+	font-family: Calibri;
+	color: #E85B5F;
+	font-size: 19px;
+}
+.cbl-text a{
+	font-family: Calibri;
+	text-decoration: none;
+	font-size: 12px;
+	color: #E85B5F;
+	border: 2px solid #E64B4D;
+	padding: 7px 18px;
+}
+.cbl-text a:hover{
+	background-color: #1CA361;
+}
+#content-bottom-middle{
+	width: 320px;
+	height: 400px;
+	overflow: auto;
+	float: left;
+	background-color: #FFFFFF; 
+	position: relative;
+}
+.cbm-text{
+	font-family: Calibri;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 1.6;
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 81px;
+	left: 90px;
+}
+.cbm-text h1{
+	font-family: Calibri;
+	color: #E85B5F;
+	font-size: 19px;
+}
+.cbm-text a{
+	font-family: Calibri;
+	text-decoration: none;
+	font-size: 12px;
+	color: #E85B5F;
+	border: 2px solid #E64B4D;
+	padding: 7px 18px;
+}
+.cbm-text a:hover{
+	background-color: #1CA361;
+}
+#content-bottom-right{
+	width: 320px;
+	height: 400px;
+	overflow: auto;
+	float: left;
+	background-color: #FFFFFF;
+	position: relative;
+	
+}
+.cbr-text{
+	font-family: Calibri;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 1.6;
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 81px;
+	left: 90px;
+}
+.cbr-text h1{
+	font-family: Calibri;
+	color: #E85B5F;
+	font-size: 19px;
+}
+.cbr-text a{
+	font-family: Calibri;
+	text-decoration: none;
+	font-size: 12px;
+	color: #E85B5F;
+	border: 2px solid #E64B4D;
+	padding: 7px 18px;
+}
+.cbr-text a:hover{
+	background-color: #1CA361;
+}
+/*----------footer----*/
+#footer{
+	width: 960px;
+	height: 570px;
+	overflow: auto;
+	background-color: #E5474B;
+    position: relative;
+}
+#footer-packet{
+	width: 815px;
+	height: 470px;
+	position: absolute;
+	left: 90px;
+	top:  50px;
+	font-family: Calibri;
+	color: #FFFFFF;
+}
+#headline {
+     font-size: 22px;
+}
+#form-top{
+	width:815px;
+	height: 100px;
+	overflow: auto;
+}
+#form-top-name{
+	width: 405px;
+	height: 100px;
+	overflow: auto;
+	padding-right: 2px;
+    float: left;
+}
+#form-top-name p{
+	font-size: 13px;
+}
+input[type=text] {
+    width: 390px;
+    padding: 5px 9px;
+    box-sizing: border-box;
+    border: 2px solid #EC7578;
+	background-color: #E5474B;
+}
+#form-top-email{
+	width:405px;
+	height: 100px;
+	overflow: auto;
+	padding-left: 2px;
+	float: left;
+}
+#form-top-email p{
+	font-size: 13px;
+}
+input[type=email] {
+    width: 390px;
+    padding: 5px 9px;
+    box-sizing: border-box;
+    border: 2px solid #EC7578;
+	background-color: #E5474B;
+}
+#form-bottom{
+	width:815px;
+	height: 300px;
+	overflow: auto;
+	font-size: 13px;
+}
+textarea{
+    width: 800px;
+    padding: 5px 9px;
+    box-sizing: border-box;
+    border: 2px solid #EC7578;
+	background-color: #E5474B;
+}
+#form-bottom a{
+	font-family: Calibri;
+	text-decoration: none;
+	font-size: 11px;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	padding: 7px 18px;
+}
+input[type=submit] {
+	font-family: Calibri;
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	border: 2px solid white;
+	background-color: #E5474B;
+	padding: 7px 18px;
+}
+#form-bottom a:hover{
+	background-color: #1CA361;
+}
+#end p{
+	font-family: Calibri;
+	text-decoration: none;
+	font-size: 12px;
+	color: #EC7578;
+	line-height: 1.6;
+}

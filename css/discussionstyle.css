@@ -1,0 +1,263 @@
+body{
+	
+}
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+/*---header------*/
+#header{
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	background-color: #C34C42;
+}
+#header-top{
+	width: auto;
+	height: 65px;
+	overflow: auto;
+	background-color: #1C1C1C;
+
+}
+#header-top-left{
+	width: 480px;
+	height: 65px;
+	float: left;
+	overflow: auto;
+	background-color: #1C1C1C;
+	position: relative;
+}
+#logo{
+	position: absolute;
+	left: 85px;
+	top: 13px;
+}
+#header-top-right{
+	width: 480px;
+	height: 65px;
+	overflow: auto;
+	float: right;
+	background-color: #1C1C1C;
+}
+#menu-box{
+	width: 480px;
+	overflow: auto;
+	background-color: #1C1C1C;
+}
+#menu{
+	padding: 0 auto;
+}
+#menu li{
+	float: left;
+	display: block;
+	list-style: none;
+	
+}
+#menu li a{
+	padding: 8px;	
+	display: block;
+	font-size: 10px;
+	font-family: verdana; 
+	text-decoration: none;
+	color: white; 
+}
+#menu li a:hover{
+	 background-color: #1CA361;
+}
+#header-bottom{
+	width: auto; 
+	height: 465px; 
+	overflow: auto;
+	position: relative;
+	background: linear-gradient(rgba(0,0,0,0.3),rgb(0,0,0,0.3)),url('../images/pic1.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+#text{
+	width: 500px;
+	position: absolute;
+	left: 90px;
+	top: 81px;
+	height: 150px;
+	font-size: 20px;
+	font-family: verdana;
+	color: white; 
+}
+#text a{
+	padding: 10px 18px;
+	width: 150px;
+	height: 40px;
+	font-size: 10px;
+	font-family: verdana;
+	color: white;
+	text-decoration: none;
+    border: 2px solid white;	
+}
+#text a:hover{
+	background-color: #1CA361;
+}
+
+/*---content------*/
+#content{
+	width: 960px;
+	height: 1100px;
+	overflow: auto;
+	background-color: #FFFFFF;
+
+}
+#goals{
+	width: 800px;
+	margin: 20px auto;
+	padding: 10px;
+	height: auto;
+	font-family: Book Antiqua;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #4C8CF5;
+	background-color: #F0F0F0;
+	
+}
+#goals h2{
+	font-family: Calibri;
+	font-size: 25px;
+	color: #E5474B;
+}
+#achieve{
+	width: 800px;
+	margin: 20px auto;
+	padding: 10px;
+	height: auto;
+	font-family: Palatino Linotype;
+	font-size: 19px;
+	line-height: 1.6;
+	color: #010608;
+	background-color: #E2EEF7;
+	
+}
+#achieve h2{
+	font-family: Calibri;
+	font-size: 22px;
+	color: #E5474B;
+}
+
+#circle{
+	width: 600px;
+	height: 300px;
+	margin: 30px auto;
+}
+
+#animation{
+	width: 140px;
+    height: 90px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {background-color: #6CC8F1; left:0px; top:0px;}
+    25%  {background-color: #90EE90; left:300px; top:0px;}
+    50%  {background-color: #FDAD9E; left:300px; top:300px;}
+    75%  {background-color: #CCCEFE; left:0px; top:300px;}
+    100% {background-color: #FACE92; left:0px; top:0px;}
+}
+#animation h2{
+	padding-top:20px;
+	font-family: Georgia;
+	font-size: 20px;
+	color: #000305;
+}
+
+/*----------footer----*/
+#footer{
+	width: 960px;
+	height: 570px;
+	overflow: auto;
+	background-color: #E5474B;
+    position: relative;
+}
+#footer-packet{
+	width: 815px;
+	height: 470px;
+	position: absolute;
+	left: 90px;
+	top:  50px;
+	font-family: Calibri;
+	color: #FFFFFF;
+}
+#headline {
+     font-size: 22px;
+}
+#form-top{
+	width:815px;
+	height: 100px;
+	overflow: auto;
+}
+#form-top-name{
+	width: 405px;
+	height: 100px;
+	overflow: auto;
+	padding-right: 2px;
+    float: left;
+}
+#form-top-name p{
+	font-size: 13px;
+}
+input[type=text] {
+    width: 390px;
+    padding: 5px 9px;
+    box-sizing: border-box;
+    border: 2px solid #EC7578;
+	background-color: #E5474B;
+}
+#form-top-email{
+	width:405px;
+	height: 100px;
+	overflow: auto;
+	padding-left: 2px;
+	float: left;
+}
+#form-top-email p{
+	font-size: 13px;
+}
+input[type=email] {
+    width: 390px;
+    padding: 5px 9px;
+    box-sizing: border-box;
+    border: 2px solid #EC7578;
+	background-color: #E5474B;
+}
+#form-bottom{
+	width:815px;
+	height: 300px;
+	overflow: auto;
+	font-size: 13px;
+}
+textarea{
+    width: 800px;
+    padding: 5px 9px;
+    box-sizing: border-box;
+    border: 2px solid #EC7578;
+	background-color: #E5474B;
+}
+input[type=submit] {
+   	font-family: Calibri;
+	text-decoration: none;
+	font-size: 11px;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	padding: 7px 18px;
+	background-color: #E5474B;
+}
+
+input[type=submit]:hover{
+	background-color: #9ECFDA;
+}
+#end p{
+	font-family: Calibri;
+	text-decoration: none;
+	font-size: 12px;
+	color: #EC7578;
+	line-height: 1.6;
+}
